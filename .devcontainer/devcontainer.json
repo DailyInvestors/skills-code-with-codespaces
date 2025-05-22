@@ -1,13 +1,9 @@
 {
-  
   "name": "Codespace for Skills!",
- 
   "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
-
   "remoteUser": "codespace",
   "overrideCommand": false,
-
-  
+  "postCreateCommand": "echo '# Writing code upon codespace creation!' >> codespace.md",
   "customizations": {
     "vscode": {
       "extensions": [
